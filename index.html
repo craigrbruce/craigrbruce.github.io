@@ -1,23 +1,59 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Craig Bruce</title>
+    <!-- Favicon -->
+    <link rel="icon" href="https://avatars0.githubusercontent.  com/u/43749971" type="image/x-icon" />
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Core theme CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- Profile picture-->
-    <img src="assets/craig.png" alt="profile picture" class="profile-picture">
-    <!-- Profile name-->
-    <div class="profile-name">Craig Bruce</div>
-    <!-- Links-->
-    <a href="https://www.linkedin.com/in/craigrbruce/" class="links">LinkedIn</a>
-    <a href="https://github.com/craigrbruce/" class="links">Github</a>
-    <a href="https://twitter.com/craigrbruce" class="links">Twitter</a>
-    <!-- Logo -->
-    <div class="bottom-text">Software Engineer | Engineering Manager</div>
-</body>
+    <!-- Parallax Pixel Background Animation -->
+    <section class="animated-background">
+        <div id="stars1"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+    </section>
+    <!-- End of Parallax Pixel Background Animation -->
 
+    <a id="profilePicture" href="#popup">
+        <img src="./assets/craig.png" alt="Profile Picture">
+    </a>
+
+    <div class="overlay" id="popup">
+        <div class="popup">
+            <div class="popup-photo">
+                <a href="./assets/craig.png" target="_blank">
+                    <img src="./assets/craig.png" alt="Profile Picture">
+                </a>
+            </div>
+            <div class="popup-quote">
+               Software Engineer | Engineering Manager 
+            </div>
+            <a class="popup-close" onclick="history.back()">&times;</a>
+        </div>
+    </div>
+
+    <div id="userName">
+        @craigrbruce
+    </div>
+
+    <div id="links">
+        <a class="link" href="https://github.com/craigrbruce" target="_blank">
+            <i class="fab fa-github">&nbsp;</i>Github
+        </a>
+        <a class="link" href="https://www.linkedin.com/in/craigrbruce/" target="_blank">
+            <i class="fab fa-linkedin">&nbsp;</i>Linkedin
+        </a>
+        <a class="link" href="https://twitter.com/craigrbruce" target="_blank">
+            <i class="fab fa-twitter">&nbsp;</i>Twitter
+        </a>
+    </div>
+</body>
 </html>
