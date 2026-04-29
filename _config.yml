@@ -1,18 +1,34 @@
+theme: jekyll-theme-chirpy
+
+lang: en
+timezone: Australia/Sydney
+
 title: Craig Bruce
-email: craig@craig-bruce.com
+tagline: Technology leadership · AI transformation · Engineering culture
 description: >-
-  Technology director writing about engineering leadership, AI transformation,
+  Director of Technology writing about engineering leadership, AI transformation,
   and building teams that ship what matters.
-baseurl: ""
+
 url: "https://craig-bruce.com"
-twitter_username: craigrbruce
-github_username: craigrbruce
+baseurl: ""
 
-author: Craig Bruce
+github:
+  username: craigrbruce
 
-theme: minima
-minima:
-  skin: dark
+social:
+  name: Craig Bruce
+  email: craig@craig-bruce.com
+  links:
+    - https://www.linkedin.com/in/craigrbruce
+    - https://github.com/craigrbruce
+
+avatar: /assets/img/avatar.jpg   # add your headshot here
+
+theme_mode: dark   # or light, or remove for auto
+
+paginate: 10
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
