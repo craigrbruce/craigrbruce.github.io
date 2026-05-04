@@ -11,7 +11,7 @@ I'm Craig — Director of Technology at Nine Entertainment. I've spent the last 
 
 I'm starting this blog because writing forces clarity, and there's a lot I want to think through clearly right now.
 
-The industry I've worked in for a decade is changing faster than at any point in my career. AI is reshaping what engineering teams do and how they're structured. The media sector — my sector — is under more pressure than ever. The skills that got good technology leaders to where they are may not be the same ones that keep them there.
+The industry I've worked in for a decade is changing faster than at any point in my career. AI is reshaping what engineering teams do and how they're structured. The media sector is under more pressure than ever. The skills that got good technology leaders to where they are may not be the same ones that keep them there.
 
 I want to write about that honestly. Not as a thought leader performing insight, but as a practitioner working through real problems in real time.
 
